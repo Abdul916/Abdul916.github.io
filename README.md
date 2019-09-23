@@ -59,7 +59,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Abdul Waheed** - *Initial work* - [abdul916](https://abdul916.github.io/)
+* **Abdul Waheed** - *Initial work* - [Abdul Waheed](https://abdul916.github.io/)
 
 ## Acknowledgments
 
