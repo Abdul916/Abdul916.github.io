@@ -251,9 +251,9 @@
 										<div class="row">
 											<div class="col-3 date">
 												<i class="fa fa-tasks"></i>
-												20 August 2020
+												20 August 2020 to
 												<br>
-												Continue
+												05 October 2020
 											</div>
 											<div class="col-9 content no-top-border">
 												<p class="m-b-xs"><strong><a target="_blank" href="https://smilecards.store"> Smile Cards</a></strong></p>
@@ -522,7 +522,7 @@
 			</div>
 			<div class="footer">
 				<div>
-					<strong>Copyright &copy; </strong> 2019
+					<strong>Copyright &copy; </strong> <?php echo date('Y');?>
 				</div>
 			</div>
 		</div>
