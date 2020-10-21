@@ -522,7 +522,7 @@
 			</div>
 			<div class="footer">
 				<div>
-					<strong>Copyright &copy; </strong> <?php echo date('Y');?>
+					<strong>Copyright &copy; </strong> <span id="show_datee"></span>
 				</div>
 			</div>
 		</div>
@@ -535,5 +535,10 @@
 	<script src="js/inspinia.js"></script>
 	<script src="js/plugins/pace/pace.min.js"></script>
 	<script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+	<script>
+		var today = new Date();
+		var datee = today.getFullYear();
+		document.getElementById("show_datee").innerHTML = datee;
+	</script>
 </body>
 </html>
