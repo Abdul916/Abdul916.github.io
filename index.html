@@ -10,18 +10,18 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <style type="text/css">
-	.keySkills {
-		list-style-type: none;
-		-moz-column-count:3;
-		-webkit-column-count:3;
-		column-count:4;
-		margin-bottom: 20px;
-		font-size: 1em;
-		color: #444;
-	}
-	div > a > img {
-		display: none;
-	}
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:4;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+div > a > img {
+	display: none;
+}
 </style>
 <body class="top-navigation pace-done fixed-nav">
 	<div id="wrapper">
@@ -56,7 +56,21 @@
 										</div>
 									</div>
 									<div class="col-md-5">
-										<table class="table m-b-xs">
+										<br>
+										<br>
+										<div class="contact-box-footer">
+											<div class="m-t-xs btn-group">
+												<!-- <a href="mailto:abdulwaheedsharif@gmail.com" class="btn btn-xs btn-primary btn-outline"><i class="fa fa-envelope"></i> Email</a> -->
+												<a href="javascript:void(0);" class="btn btn-xs btn-primary btn-outline" data-toggle="modal" data-target="#emailmodalbox"><i class="fa fa-envelope"></i> Email</a>
+
+												<a href="https://www.linkedin.com/in/abdulwaheed916/" target="_blank" class="btn btn-xs btn-success btn-outline"><i class="fa fa-linkedin"></i> LinkedIn </a>
+
+												<a href="https://api.whatsapp.com/send?phone=00923350407494&text=Hi, Abdul Waheed!" target="_blank" class="btn btn-xs btn-info btn-outline"><i class="fa fa-comment-o"></i> WhatsApp </a>
+
+												<a href="tel:92-304-479-8784" class="btn btn-xs btn-primary btn-outline"><i class="fa fa-phone"></i> Call Me</a>
+											</div>
+										</div>
+										<!-- <table class="table m-b-xs">
 											<tbody>
 												<tr>
 													<td>
@@ -83,7 +97,7 @@
 													</td>
 												</tr>
 											</tbody>
-										</table>
+										</table> -->
 									</div>
 								</div>
 								<span style="text-align: center !important;">
@@ -531,6 +545,34 @@
 						</div>
 					</div>
 				</div>
+
+
+
+				<div class="modal inmodal fade" id="emailmodalbox" tabindex="-1" role="dialog"  aria-hidden="true">
+					<div class="modal-dialog modal-md">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title">Message</h4>
+							</div>
+							<div class="modal-body">
+								<form method="post" action="submit.php">
+									<div class="form-group">
+										<label>Email</label>
+										<input type="email" name="email" class="form-control" placeholder="Your email" required>
+									</div>
+									<div class="form-group">
+										<label>Message</label>
+										<textarea class="form-control" name="message" placeholder="Your message" rows="3" required></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary btn-block">Send</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 	</div>
