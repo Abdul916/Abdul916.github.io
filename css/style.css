@@ -6091,7 +6091,7 @@ a.compose-mail {
   margin-bottom: 5px;
 }
 .file-list li a {
-  color: inherit;
+  color: black;
 }
 .file-list li a:hover {
   color: #1ab394;
